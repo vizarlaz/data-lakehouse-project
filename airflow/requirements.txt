@@ -1,0 +1,8 @@
+apache-airflow==2.8.1
+apache-airflow-providers-postgres==5.10.0
+psycopg2-binary==2.9.9
+pandas==2.1.4
+pyarrow==14.0.2
+minio==7.2.3
+faker==22.0.0
+sqlalchemy==1.4.51

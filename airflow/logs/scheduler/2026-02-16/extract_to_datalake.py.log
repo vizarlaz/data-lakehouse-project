@@ -1,0 +1,266 @@
+[2026-02-16T17:29:55.979+0000] {processor.py:161} INFO - Started process (PID=158) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:29:56.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:29:56.081+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:29:56.059+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:30:06.599+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:30:06.586+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:30:06.605+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:30:06.761+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 10.955 seconds
+[2026-02-16T17:30:37.073+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:30:37.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:30:37.081+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:30:37.077+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:30:38.807+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:30:38.653+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:30:38.808+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:30:39.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 2.124 seconds
+[2026-02-16T17:31:09.934+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:31:10.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:31:10.209+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:31:10.208+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:31:13.738+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:31:13.733+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:31:13.739+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:31:14.127+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 4.220 seconds
+[2026-02-16T17:31:44.417+0000] {processor.py:161} INFO - Started process (PID=177) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:31:44.419+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:31:44.421+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:31:44.420+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:31:46.227+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:31:46.223+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:31:46.228+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:31:46.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 1.879 seconds
+[2026-02-16T17:32:16.553+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:32:16.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:32:16.556+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:32:16.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:32:17.053+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:32:17.050+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:32:17.054+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:32:17.094+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 0.546 seconds
+[2026-02-16T17:32:47.196+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:32:47.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:32:47.199+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:32:47.198+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:32:47.727+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:32:47.724+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:32:47.728+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:32:47.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 0.575 seconds
+[2026-02-16T17:33:18.194+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:33:18.225+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:33:18.226+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:33:18.226+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:33:18.741+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:33:18.738+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:33:18.742+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:33:18.782+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 0.595 seconds
+[2026-02-16T17:33:49.021+0000] {processor.py:161} INFO - Started process (PID=201) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:33:49.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:33:49.024+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:33:49.023+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:33:49.530+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:33:49.527+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:33:49.531+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:33:49.569+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 0.553 seconds
+[2026-02-16T17:34:19.850+0000] {processor.py:161} INFO - Started process (PID=207) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:34:19.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:34:19.855+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:34:19.855+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:34:20.456+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:34:20.453+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:34:20.457+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:34:20.501+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 0.656 seconds
+[2026-02-16T17:34:50.766+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:34:50.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:34:50.769+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:34:50.768+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:34:51.388+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:34:51.385+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:34:51.389+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:34:51.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 0.664 seconds
+[2026-02-16T17:35:21.621+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:35:21.623+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:35:21.626+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:35:21.626+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:35:22.455+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:35:22.450+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:35:22.457+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:35:22.632+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 1.023 seconds
+[2026-02-16T17:35:52.871+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:35:52.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:35:52.875+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:35:52.875+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:35:53.393+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:35:53.389+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:35:53.394+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:35:53.438+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 0.573 seconds
+[2026-02-16T17:36:23.688+0000] {processor.py:161} INFO - Started process (PID=231) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:36:23.689+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:36:23.691+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:36:23.690+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:36:24.307+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:36:24.304+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:36:24.311+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:36:24.353+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 0.669 seconds
+[2026-02-16T17:36:54.601+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:36:54.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:36:54.604+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:36:54.603+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:36:55.292+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:36:55.288+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:36:55.293+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:36:55.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 0.746 seconds
+[2026-02-16T17:37:25.608+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:37:25.609+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:37:25.610+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:37:25.610+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:37:26.246+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:37:26.241+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:37:26.247+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:37:26.305+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 0.702 seconds
+[2026-02-16T17:37:56.563+0000] {processor.py:161} INFO - Started process (PID=249) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:37:56.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:37:56.571+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:37:56.569+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:37:57.245+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:37:57.241+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:37:57.246+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:37:57.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 0.739 seconds
+[2026-02-16T17:38:27.575+0000] {processor.py:161} INFO - Started process (PID=255) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:38:27.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:38:27.581+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:38:27.578+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:38:28.266+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:38:28.263+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:38:28.267+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:38:28.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 0.740 seconds
+[2026-02-16T17:38:58.538+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:38:58.540+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:38:58.541+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:38:58.541+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:38:59.479+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:38:59.476+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:38:59.480+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:38:59.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 0.986 seconds
+[2026-02-16T17:39:29.745+0000] {processor.py:161} INFO - Started process (PID=267) to work on /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:39:29.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_to_datalake.py for tasks to queue
+[2026-02-16T17:39:29.749+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:39:29.748+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:39:30.350+0000] {logging_mixin.py:188} INFO - [2026-02-16T17:39:30.347+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/extract_to_datalake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_to_datalake.py", line 7, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2026-02-16T17:39:30.351+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_to_datalake.py
+[2026-02-16T17:39:30.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_to_datalake.py took 0.649 seconds
