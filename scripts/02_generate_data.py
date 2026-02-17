@@ -7,7 +7,7 @@ fake = Faker()
 
 def connect_db():
     return psycopg2.connect(
-        host="localhost",
+        host="",
         database="ecommerce_source",
         user="airflow",
         password="airflow",
@@ -30,10 +30,10 @@ def generate_customers(conn, num=1000):
                     VALUES(%s, %s, %s, %s, %s, %s, %s)
                     RETURNING customer_id
             """, (
-                fake.email(),
+                fake.unique.email(),
                 fake.first_name(),
                 fake.last_name(),
-                fake.choice(countries),
+                random.choice(countries),
                 fake.city(),
                 fake.date_time_between(start_date='-2y', end_date='-1y'),
                 fake.date_time_between(start_date='-2y', end_date='-1y')
@@ -44,8 +44,10 @@ def generate_customers(conn, num=1000):
             if (i + 1) % 100 == 0:
                 conn.commit()
                 print(f" Created {i + 1} customers")
-        except:
+        except Exception as e:
             conn.rollback()
+            if i == 0:
+                print(f"DEBUG ERROR: {e}")
     
     conn.commit()
     print(f" Created {len(customers)} customers\n")
@@ -67,14 +69,14 @@ def generate_products(conn, num=500):
 
     for i in range(num):
         category = random.choice(list(categories.keys()))
-        brand = random.choice(categories[categories])
+        brand = random.choice(categories[category])
         cost = round(random.uniform(5, 200), 2)
         price = round(cost * random.uniform(1.5, 2.5), 2)
 
         cursor.execute("""
                 INSERT INTO ecommerce.products
                (product_name, category, brand, price, cost, stock_quantity)
-               VALUES (%s, %s, %s, %s, %s, %s,)
+               VALUES (%s, %s, %s, %s, %s, %s)
                RETURNING product_id
                 """, (
                     f"{brand} {fake.word().title()}",
@@ -134,7 +136,7 @@ def generate_orders(conn, customers, products, num=5000):
         for _ in range(num_items):
             product_id = random.choice(products)
             cursor.execute("SELECT price FROM ecommerce.products WHERE product_id = %s", (product_id,))
-            price = cursor.fetchone()[0]
+            price = float(cursor.fetchone()[0])
 
             quantity = random.randint(1, 3)
             discount = random.choice([0, 0, 0, 5, 10, 15])

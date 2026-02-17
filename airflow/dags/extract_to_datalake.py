@@ -70,7 +70,7 @@ with DAG(
     'extract_to_datalake',
     default_args=default_args,
     description='Extract from PostgreSQL to Data Lake',
-    schedule_interval='0.1 * * *', # 1 AM daily
+    schedule_interval='0 1 * * *', # 1 AM daily
     catchup=False,
     tags=['extract', 'etl']
 ) as dag:
@@ -81,5 +81,5 @@ with DAG(
             task_id=f'extract_{table}',
             python_callable=extract_table,
             params={'table': table},
-            provide_context=True
+            
         )
